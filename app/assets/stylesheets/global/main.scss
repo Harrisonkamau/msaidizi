@@ -1,0 +1,15 @@
+$navy_blue: #0366d6;
+
+.navbar-brand {
+    color: $navy_blue;
+    font-family: inherit;
+  }
+
+.navbar-right {
+  li > a {
+    &:hover {
+    color: orangered;
+    background-color: transparent !important;
+    }
+  }
+}
